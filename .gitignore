@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Session & Runtime State
+sessions.json
+sessions.tmp
+*.log
+
+# Workspace & Cache
+workspace/
+.cache/
+.pytest_cache/
+
+# Archives & Distribution
+*.tar.gz
+*.zip
